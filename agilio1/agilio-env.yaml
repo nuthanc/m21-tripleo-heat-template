@@ -1,0 +1,19 @@
+resource_registry:
+  OS::TripleO::NodeExtraConfigPost: agilio-vrouter.yaml
+
+parameter_defaults:
+  # Force writing of kernel parameters
+  KernelArgs: "intel_iommu=on iommu=pt hugepagesz=2M hugepages=16384" 
+
+  # Agilio accelerated computes
+  AgilioVrouter: true
+
+  # Aditional config
+  #ControlPlaneDefaultRoute: 10.0.110.1
+  #EC2MetadataIp: 10.0.110.1  # Generally the IP of the Undercloud
+  #DnsServers: ["8.8.8.8","192.168.3.3"]
+  #NtpServer: ntp.is.co.za
+  #ContrailRegistryInsecure: true
+  #DockerInsecureRegistryAddress: 172.26.1.150:6666,10.0.110.1:8787
+  #ContrailRegistry: 172.26.1.150:6666
+  #ContrailImageTag: 5.1.0-0.573-rhel-queens

@@ -1,0 +1,1421 @@
+Waiting for messages on queue 'tripleo' with no timeout.
+Started Mistral Workflow tripleo.validations.v1.check_pre_deployment_validations. Execution ID: 5615e1f3-bf49-48ea-a85f-1ecbea5c476c
+Removing the current plan files
+Uploading new plan files
+Started Mistral Workflow tripleo.plan_management.v1.update_deployment_plan. Execution ID: 73bbb0ca-8430-41f7-97cb-ff9b2950306f
+Plan updated.
+Processing templates in the directory /tmp/tripleoclient-cx6lza/tripleo-heat-templates
+Started Mistral Workflow tripleo.plan_management.v1.get_deprecated_parameters. Execution ID: 52916b57-8f88-47cb-a179-75203b704568
+WARNING: Following parameter(s) are defined but not currently used in the deployment plan. These parameters may be valid but not in use due to the service or deployment configuration. ContrailAnalyticsDatabaseCount, AgilioVrouter, OvercloudContrailAnalyticsFlavor, ContrailAnalyticsCount, OvercloudContrailAnalyticsDatabaseFlavor
+Deploying templates in the directory /tmp/tripleoclient-cx6lza/tripleo-heat-templates
+Started Mistral Workflow tripleo.deployment.v1.deploy_plan. Execution ID: 8dd16b50-ea37-4a2b-80ed-4d7a54d8cfb9
+Workflow Started
+2020-05-28 12:48:41Z [Networks]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:42Z [overcloud-Networks-5wf7oditep4m]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:42Z [overcloud-Networks-5wf7oditep4m.ExternalNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:43Z [ServiceNetMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:43Z [overcloud-Networks-5wf7oditep4m.TenantNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:44Z [overcloud-Networks-5wf7oditep4m-ExternalNetwork-sia3kbguzaab]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:44Z [overcloud-ServiceNetMap-xe7boyznsolb]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:44Z [overcloud-ServiceNetMap-xe7boyznsolb]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:44Z [overcloud-Networks-5wf7oditep4m-TenantNetwork-hvjjujetjvkj]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:44Z [overcloud-Networks-5wf7oditep4m.StorageNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:45Z [overcloud-Networks-5wf7oditep4m-ExternalNetwork-sia3kbguzaab]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:45Z [ServiceNetMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:45Z [overcloud-Networks-5wf7oditep4m-TenantNetwork-hvjjujetjvkj]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:45Z [overcloud-Networks-5wf7oditep4m-StorageNetwork-6eowfm25gaya]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:45Z [overcloud-Networks-5wf7oditep4m.TenantNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:46Z [overcloud-Networks-5wf7oditep4m.ExternalNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:46Z [overcloud-Networks-5wf7oditep4m-StorageNetwork-6eowfm25gaya]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:46Z [overcloud-Networks-5wf7oditep4m.StorageNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:46Z [overcloud-Networks-5wf7oditep4m.ManagementNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:47Z [overcloud-Networks-5wf7oditep4m-ManagementNetwork-m2qfb5tmnbga]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:47Z [overcloud-Networks-5wf7oditep4m.StorageMgmtNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:48Z [overcloud-Networks-5wf7oditep4m-ManagementNetwork-m2qfb5tmnbga]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:48Z [overcloud-Networks-5wf7oditep4m.ManagementNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:48Z [overcloud-Networks-5wf7oditep4m-StorageMgmtNetwork-e3k2orvy7eeg]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:49Z [overcloud-Networks-5wf7oditep4m.InternalApiNetwork]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:49Z [DefaultPasswords]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:49Z [overcloud-Networks-5wf7oditep4m-StorageMgmtNetwork-e3k2orvy7eeg]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:49Z [overcloud-Networks-5wf7oditep4m.StorageMgmtNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:50Z [overcloud-Networks-5wf7oditep4m-InternalApiNetwork-u5oiw6k3tqex]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:50Z [DefaultPasswords]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:50Z [overcloud-Networks-5wf7oditep4m-InternalApiNetwork-u5oiw6k3tqex]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:51Z [overcloud-Networks-5wf7oditep4m.InternalApiNetwork]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:51Z [overcloud-Networks-5wf7oditep4m]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:51Z [Networks]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:54Z [StorageVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:54Z [PublicVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:54Z [InternalApiVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:55Z [StorageMgmtVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:55Z [RedisVirtualIP]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:55Z [overcloud-PublicVirtualIP-rklw34qau2ha]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:56Z [overcloud-StorageVirtualIP-ciwqpftjjppu]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:56Z [overcloud-RedisVirtualIP-p4tjihgcri73]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:56Z [overcloud-InternalApiVirtualIP-n5ccnyjq7t7a]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:56Z [overcloud-StorageMgmtVirtualIP-ikgq5qsgdap2]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:56Z [overcloud-PublicVirtualIP-rklw34qau2ha]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:56Z [PublicVirtualIP]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:57Z [overcloud-StorageVirtualIP-ciwqpftjjppu]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:57Z [StorageVirtualIP]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:57Z [overcloud-InternalApiVirtualIP-n5ccnyjq7t7a]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:57Z [overcloud-RedisVirtualIP-p4tjihgcri73]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:57Z [overcloud-StorageMgmtVirtualIP-ikgq5qsgdap2]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:48:58Z [InternalApiVirtualIP]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:58Z [RedisVirtualIP]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:58Z [StorageMgmtVirtualIP]: UPDATE_COMPLETE  state changed
+2020-05-28 12:48:59Z [VipMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:48:59Z [overcloud-VipMap-s6d6wvdgwsbx]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:48:59Z [overcloud-VipMap-s6d6wvdgwsbx]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:49:00Z [VipMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:01Z [EndpointMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:03Z [EndpointMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:04Z [ContrailTsnServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:04Z [ContrailControllerIssuServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:04Z [ControllerServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:04Z [ContrailControllerServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:04Z [ComputeServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:05Z [ContrailSriovServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:05Z [ContrailControlOnlyServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:05Z [ContrailDpdkServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:05Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:05Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:05Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:05Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:05Z [overcloud-ComputeServiceChain-rkfmrmmihxqz]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:06Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:06Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:06Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:06Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:06Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:06Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:07Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:07Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:07Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:07Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:07Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:08Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:08Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:08Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:08Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:09Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:09Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:09Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.LoggingConfiguration]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:09Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:10Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:10Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:11Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:11Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:11Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:11Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:12Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:12Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:12Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:12Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.ServiceChain]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:13Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:14Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.4]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:15Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.3]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:15Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:17Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.4]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:17Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:18Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.10]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:18Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:18Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:18Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:18Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:19Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.3]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:19Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.10]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:19Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.9]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:21Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:21Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.4]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:22Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:24Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.19]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:24Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:25Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.10]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:25Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:25Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.9]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:27Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.4]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:27Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.10]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:28Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:28Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.19]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:28Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.4]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:28Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:28Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:30Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:30Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.23]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:31Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.3]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:31Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.12]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:31Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.9]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:31Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:32Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.11]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:33Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:33Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.12]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:33Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.2]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:34Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.LoggingConfiguration]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:34Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.10]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:34Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:34Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.12]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:34Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.3]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:34Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.11]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:36Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.11]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:36Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.9]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:36Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.12]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:36Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:37Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:37Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:37Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.10]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:37Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:37Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:37Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.2]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:39Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.4]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:39Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.16]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:39Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:39Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.23]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:40Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:40Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.8]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:41Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:42Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:42Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.11]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:44Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.19]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:44Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:44Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:45Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:45Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.15]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:46Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.10]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:46Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:46Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:48Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:48Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.23]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:49Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.22]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.9]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.23]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.11]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.15]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:49Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.11]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:50Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.19]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:50Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:51Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.15]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:51Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.23]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:51Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:49:52Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:52Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.9]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:52Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.9]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:52Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.16]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:52Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.23]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:52Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:53Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.10]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:53Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:54Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.15]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:54Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:55Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.32]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:55Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:55Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.15]: UPDATE_COMPLETE  state changed
+2020-05-28 12:49:56Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:58Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.17]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:58Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:59Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:59Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:59Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.19]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:59Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.22]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:49:59Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:01Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:01Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.32]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:02Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.35]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:02Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.16]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:03Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.36]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:03Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:03Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:04Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.31]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:05Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.35]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:06Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm-ServiceChain-6g26la24nc77]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:50:07Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.18]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:07Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:08Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.36]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:09Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:09Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.21]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:10Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.31]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:10Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.17]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:12Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.21]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:14Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.35]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:14Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:14Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.23]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:14Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.23]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:15Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.25]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:15Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.20]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:18Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:18Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.15]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:18Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:19Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.25]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:19Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.20]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:19Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.9]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:21Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:22Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.3]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:22Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.22]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:23Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:24Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:26Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.35]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:27Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:29Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.17]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:30Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:32Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.22]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:32Z [overcloud-ContrailControllerIssuServiceChain-dx44xxyg4nwm]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:50:32Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.21]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.4]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:33Z [ContrailControllerIssuServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:33Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.8]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:33Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:34Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.21]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:34Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.31]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:34Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.35]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:34Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.17]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:35Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.33]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:35Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.21]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:35Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:37Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.31]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:37Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:37Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.2]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:38Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.34]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:38Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:38Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.35]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:38Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.22]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:38Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.3]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:38Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.22]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:38Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds.17]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:40Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.17]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:41Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.33]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:41Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.16]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:41Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:41Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.34]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:41Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.25]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:41Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.35]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:41Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.19]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:43Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.35]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:45Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.32]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:48Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki-ServiceChain-omq7jecn3zds]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:50:49Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.37]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:49Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:51Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.34]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:51Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.32]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:52Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.4]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:52Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.33]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:53Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.34]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:53Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.37]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:55Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.20]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:56Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.18]: UPDATE_COMPLETE  state changed
+2020-05-28 12:50:57Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.14]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:50:58Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.23]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:01Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.36]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:01Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.14]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:04Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.36]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:07Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.11]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:08Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.12]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:09Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.33]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:09Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:10Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.17]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:11Z [overcloud-ContrailControlOnlyServiceChain-paskzbxhmfki]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:51:11Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.13]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:11Z [ContrailControlOnlyServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:12Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.20]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:12Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.21]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:12Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.12]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:14Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.13]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:14Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:14Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.17]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:16Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.22]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:20Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.16]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:20Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.11]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:20Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:20Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:22Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.21]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:26Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.16]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:27Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.22]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:31Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.22]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:32Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.25]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:34Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.32]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:35Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.23]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:36Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.15]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:38Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.21]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:41Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.32]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:43Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.32]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:43Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.24]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:43Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.26]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:44Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.22]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:45Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.37]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:46Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.34]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:47Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.42]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:47Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.21]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:48Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.36]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:48Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.34]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:49Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.25]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:49Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.32]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:49Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.36]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:50Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.26]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:50Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.25]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:51Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.42]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:52Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.36]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:52Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.34]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:53Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.33]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:51:55Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7.34]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:56Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.25]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:56Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5.36]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:56Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:51:56Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4.33]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:00Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.50]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:00Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.15]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:02Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px-ServiceChain-74yy73jvgwz5]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:03Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.33]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:03Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.37]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:04Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:04Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q-ServiceChain-qakatb6qpaq7]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:04Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:06Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.24]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:07Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.33]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:09Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh-ServiceChain-oz7xx6p7qkg4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:10Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.37]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:10Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:10Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:10Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px.DockerConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:11Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.21]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:12Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb.37]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:16Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.50]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:19Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.49]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:21Z [overcloud-ContrailDpdkServiceChain-uk5jogoru2px]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:21Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:21Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh.DockerConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:21Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:22Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q.DockerConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:22Z [overcloud-ComputeServiceChain-rkfmrmmihxqz-ServiceChain-5iepafzbgvnb]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:23Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:24Z [ContrailDpdkServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:24Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.36]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:26Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.35]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:27Z [ContrailDpdkServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:27Z [ContrailDpdkServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:27Z [overcloud-ContrailTsnServiceChain-sqyxtvlvufhh]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:27Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.54]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:27Z [overcloud-ContrailSriovServiceChain-tpgwrwv3uj4q]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:27Z [ContrailTsnServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:28Z [ContrailSriovServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:29Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.25]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:30Z [ContrailTsnServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:30Z [ContrailTsnServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:31Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5.25]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:32Z [ContrailSriovServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:33Z [ContrailSriovServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:33Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.49]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:33Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:34Z [overcloud-ComputeServiceChain-rkfmrmmihxqz.DockerConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:35Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws-ServiceChain-3mkpwbm3igi5]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:35Z [overcloud-ComputeServiceChain-rkfmrmmihxqz]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:52:35Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:35Z [ComputeServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:36Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.35]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:37Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.53]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:37Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.36]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:38Z [ComputeServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:39Z [ComputeServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:40Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.39]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:41Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.54]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:47Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.48]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:49Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.53]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:57Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.48]: UPDATE_COMPLETE  state changed
+2020-05-28 12:52:58Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.61]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:52:58Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.39]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:03Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.52]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:04Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.82]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:05Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.82]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:05Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.61]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:10Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.47]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:11Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.86]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:13Z [overcloud-ContrailControllerServiceChain-pqlliutt2rws]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:53:14Z [ContrailControllerServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:18Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.52]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:21Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.47]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:23Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.81]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:25Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.51]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:28Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.86]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:30Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.64]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:31Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.81]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.90]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:35Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.51]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:39Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.93]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:39Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.55]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:40Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.64]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:40Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.90]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:44Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.94]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:49Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.93]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:50Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.94]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:50Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.55]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:52Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.80]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:54Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.80]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:54Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.97]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:56Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.63]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:53:58Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.63]: UPDATE_COMPLETE  state changed
+2020-05-28 12:53:59Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.98]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:06Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.96]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:06Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.75]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:09Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.97]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:09Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.98]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:11Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.75]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:12Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.101]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:14Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.102]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:17Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.83]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:20Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.96]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:21Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.102]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:21Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.101]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:24Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.100]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:27Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.83]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:30Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.105]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:30Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.114]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.100]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.87]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.105]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:37Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.104]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:38Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.113]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:38Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.104]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:41Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.114]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:43Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.87]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:44Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.112]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:46Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.113]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:56Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.130]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:56Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.125]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:57Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.103]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:54:58Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.130]: UPDATE_COMPLETE  state changed
+2020-05-28 12:54:59Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.112]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:09Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.124]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:09Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.103]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:09Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.125]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:14Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.124]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:16Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.111]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:17Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.128]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:20Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.111]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:24Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.133]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:26Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.133]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:27Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.128]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:27Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.123]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:30Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.123]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:31Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.132]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:32Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.132]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:34Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.127]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:41Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.127]: UPDATE_COMPLETE  state changed
+2020-05-28 12:55:44Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.131]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:55:47Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4.131]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:24Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc-ServiceChain-zhg4gm6awqy4]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:25Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.ServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:38Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.DockerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:39Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc.DockerConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:39Z [overcloud-ControllerServiceChain-dlpw7ssg5qqc]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:40Z [ControllerServiceChain]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:41Z [ControllerServiceChainRoleData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:41Z [ControllerServiceChainRoleData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:42Z [ContrailControlOnly]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:43Z [ContrailControllerIssu]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:44Z [Compute]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:44Z [ContrailControllerIssu]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:45Z [ContrailDpdk]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:45Z [ContrailControllerIssuAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:46Z [overcloud-Compute-qsi7apd2elif]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:46Z [ContrailController]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:46Z [ContrailControllerIssuIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:47Z [ContrailSriov]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:47Z [overcloud-ContrailControllerIssuAllNodesValidationConfig-scn42rd46ttn]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:47Z [ContrailDpdk]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:47Z [overcloud-Compute-qsi7apd2elif.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:47Z [overcloud-ContrailControllerIssuAllNodesValidationConfig-scn42rd46ttn]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:47Z [ControllerServiceConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:47Z [overcloud-ContrailControllerIssuIpListMap-h6org2idzyd3]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:48Z [ContrailTsn]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:48Z [ContrailControlOnly]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:48Z [ContrailDpdkAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:48Z [ControllerServiceConfigSettings]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:48Z [ContrailControllerIssuAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:48Z [overcloud-Compute-qsi7apd2elif.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:48Z [overcloud-ContrailController-k2mjlsqhudfz]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:49Z [ControllerMergedConfigSettings]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:49Z [ControllerMergedConfigSettings]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:49Z [ContrailDpdkIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:49Z [ContrailTsn]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:49Z [overcloud-Compute-qsi7apd2elif.0]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:49Z [ContrailControlOnlyAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:49Z [Controller]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:50Z [overcloud-ContrailControllerIssuIpListMap-h6org2idzyd3]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:50Z [overcloud-ContrailDpdkAllNodesValidationConfig-y2qixjg4npmv]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:50Z [overcloud-ContrailController-k2mjlsqhudfz.0]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:50Z [ContrailControlOnlyIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:50Z [ContrailSriov]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:50Z [ContrailControllerIssuIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:50Z [overcloud-ContrailControlOnlyAllNodesValidationConfig-aqfnfz4doz75]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:50Z [overcloud-ContrailDpdkAllNodesValidationConfig-y2qixjg4npmv]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:51Z [overcloud-Controller-pfs7uvtpmjd7]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:51Z [overcloud-ContrailController-k2mjlsqhudfz.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:51Z [overcloud-ContrailControlOnlyAllNodesValidationConfig-aqfnfz4doz75]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:51Z [overcloud-ContrailDpdkIpListMap-ulknv2acxf5j]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:51Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:51Z [ContrailTsnAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:51Z [ContrailDpdkAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:51Z [overcloud-Controller-pfs7uvtpmjd7.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:51Z [ContrailTsnIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:51Z [overcloud-ContrailControlOnlyIpListMap-xgzvdlrafy2t]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:52Z [ContrailControlOnlyAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:52Z [overcloud-ContrailController-k2mjlsqhudfz.1]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:52Z [ContrailSriovAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:52Z [overcloud-Controller-pfs7uvtpmjd7.2]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:53Z [ContrailSriovIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:53Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:53Z [overcloud-ContrailTsnAllNodesValidationConfig-57oenunanv4q]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:53Z [overcloud-ContrailDpdkIpListMap-ulknv2acxf5j]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:53Z [overcloud-ContrailTsnIpListMap-llwgryhl3dk6]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:53Z [overcloud-ContrailTsnAllNodesValidationConfig-57oenunanv4q]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:53Z [overcloud-ContrailControlOnlyIpListMap-xgzvdlrafy2t]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:53Z [ContrailDpdkIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:53Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:53Z [overcloud-Controller-pfs7uvtpmjd7.0]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:54Z [ContrailControlOnlyIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:54Z [overcloud-ContrailSriovAllNodesValidationConfig-oe3khhl4mezo]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:54Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:54Z [ContrailTsnAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:54Z [overcloud-ContrailSriovIpListMap-vyyp5epbppf7]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:54Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:54Z [overcloud-ContrailTsnIpListMap-llwgryhl3dk6]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:55Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:55Z [overcloud-ContrailSriovAllNodesValidationConfig-oe3khhl4mezo]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:55Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:55Z [ContrailTsnIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:56Z [ContrailSriovAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:56Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:56Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:56Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:56Z [overcloud-ContrailSriovIpListMap-vyyp5epbppf7]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:56:56Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:56Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:56Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:56Z [ContrailSriovIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:57Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:57Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:57Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:57Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:57Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:57Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:57Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:56:58Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:58Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:58Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:58Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:58Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:59Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:59Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:59Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:59Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:59Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:56:59Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:59Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:56:59Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:00Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:00Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:00Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:00Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:00Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:00Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:00Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:00Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:01Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:01Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:01Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:01Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:01Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:01Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:01Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:01Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:02Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:02Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:02Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:02Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:02Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.PreNetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:02Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:03Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:03Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:03Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:03Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeTimesyncUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:04Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:04Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:04Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.PreNetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:04Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:04Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:05Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:05Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:05Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:05Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.UpdateConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:05Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:05Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:05Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:05Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:06Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.RoleUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:06Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeAdminUserData]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:06Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:07Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeTimesyncUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:08Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.UpdateConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:08Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:08Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:08Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.RoleUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:09Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:09Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:09Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeAdminUserData]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:09Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:09Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:09Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:09Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:10Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:10Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.PreNetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:10Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:10Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:10Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:10Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:10Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:11Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:11Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:11Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.TenantPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:12Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:13Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:13Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:13Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:13Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:14Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:15Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:16Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:16Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:16Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ExternalPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:16Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.InternalApiPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:17Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:17Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.StoragePort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:17Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:17Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.StorageMgmtPort]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:17Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:18Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:18Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:18Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ExternalPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:18Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:18Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:19Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:19Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.PreNetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:20Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.TenantPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:20Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:20Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:20Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:20Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.PreNetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:20Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ExternalPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:21Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:21Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:21Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:21Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:21Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:21Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:22Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:22Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:22Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:22Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:23Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.InternalApiPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ExternalPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:23Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.StorageMgmtPort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.StoragePort]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.ContrailControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:24Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:25Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.ContrailControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:25Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:25Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NetworkConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NetIpMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:26Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.ContrailControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:26Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:26Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.PreNetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:27Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:27Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:27Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:27Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:28Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NetIpMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:28Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NetworkConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:28Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:28Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: UPDATE_COMPLETE  The Resource ControllerConfig requires replacement.
+2020-05-28 12:57:28Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:29Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:29Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:29Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerDeployment]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:35Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.ContrailControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:35Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:36Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.ContrailControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:36Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:36Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 5aca312f-b2f1-45fc-84e0-2be52e707e17 succeeded
+2020-05-28 12:57:36Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:37Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:37Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:37Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:37Z [overcloud-ContrailController-k2mjlsqhudfz-2-5jeusbq7g7oh]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:37Z [overcloud-ContrailController-k2mjlsqhudfz.2]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:38Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:38Z [overcloud-ContrailController-k2mjlsqhudfz-1-epxo72r5mk2w]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:38Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.ContrailControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:38Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:39Z [overcloud-ContrailController-k2mjlsqhudfz.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:39Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:40Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment d679c907-150c-41f3-be92-a315e9fbf5a4 succeeded
+2020-05-28 12:57:40Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:40Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:40Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:40Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:41Z [overcloud-ContrailController-k2mjlsqhudfz-0-khgf6tm2lgaf]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:42Z [overcloud-ContrailController-k2mjlsqhudfz.0]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:42Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:42Z [overcloud-ContrailController-k2mjlsqhudfz]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:42Z [ContrailController]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:44Z [ContrailControllerServers]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:44Z [ContrailControllerAllNodesValidationConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:44Z [ContrailControllerServers]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:45Z [ContrailControllerAllNodesValidationConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 12:57:45Z [ContrailControllerNetworkHostnameMap]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:45Z [ContrailControllerNetworkHostnameMap]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:45Z [ContrailControllerAllNodesValidationConfig.AllNodesValidationsImpl]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:45Z [ContrailControllerAllNodesValidationConfig.AllNodesValidationsImpl]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:45Z [ContrailControllerAllNodesValidationConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 12:57:45Z [ContrailControllerIpListMap]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:45Z [ContrailControllerIpListMap]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 12:57:46Z [ContrailControllerAllNodesValidationConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:46Z [ContrailControllerIpListMap.EnabledServicesValue]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:46Z [ContrailControllerIpListMap.EnabledServicesValue]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:47Z [ContrailControllerIpListMap.NetIpMapValue]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:57:47Z [ContrailControllerIpListMap.NetIpMapValue]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:47Z [ContrailControllerIpListMap]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 12:57:48Z [ContrailControllerIpListMap]: CREATE_COMPLETE  state changed
+2020-05-28 12:57:48Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:48Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:50Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:50Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:57:50Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm.ControllerConfig]: DELETE_COMPLETE  state changed
+2020-05-28 12:57:51Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:51Z [overcloud-Controller-pfs7uvtpmjd7-2-jpo6rwb4ndtm]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:51Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:52Z [overcloud-Controller-pfs7uvtpmjd7.2]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:53Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:53Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:57:53Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6.ControllerConfig]: DELETE_COMPLETE  state changed
+2020-05-28 12:57:54Z [overcloud-Controller-pfs7uvtpmjd7-0-ertyuvgrekv6]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:57:55Z [overcloud-Controller-pfs7uvtpmjd7.0]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:57Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 9a99b87a-70b5-4c52-8399-b68298aea8e8 succeeded
+2020-05-28 12:57:57Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerDeployment]: UPDATE_COMPLETE  state changed
+2020-05-28 12:57:57Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerExtraConfigPre]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:57Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.SshHostPubKey]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:57:59Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.SshHostPubKey]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 1c17fc52-7069-4792-b42c-e207508bf2ad succeeded
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.UpdateDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkDeployment]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeTLSCAData]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeTLSCAData]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:01Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 9d196319-4a0c-4a1f-8d68-3da4c79f0861 succeeded
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkDeployment]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeTLSCAData]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeTLSCAData]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.UpdateDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:02Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NetworkDeployment]: DELETE_COMPLETE  state changed
+2020-05-28 12:58:03Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NetworkDeployment]: DELETE_COMPLETE  state changed
+2020-05-28 12:58:08Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerExtraConfigPre]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:08Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeExtraConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:58:09Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.NodeExtraConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:10Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:58:10Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp.ControllerConfig]: DELETE_COMPLETE  state changed
+2020-05-28 12:58:10Z [overcloud-Controller-pfs7uvtpmjd7-1-eepi4pf2xydp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:58:11Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 6801e086-1442-40d3-927e-654ef6e0da7a succeeded
+2020-05-28 12:58:11Z [overcloud-Controller-pfs7uvtpmjd7.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:11Z [overcloud-Controller-pfs7uvtpmjd7]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:58:12Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:12Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkDeployment]: DELETE_IN_PROGRESS  state changed
+2020-05-28 12:58:12Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.UpdateDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:12Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeTLSCAData]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:12Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeTLSCAData]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:12Z [Controller]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:13Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NetworkDeployment]: DELETE_COMPLETE  state changed
+2020-05-28 12:58:14Z [ControllerAllNodesValidationConfig]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:58:15Z [ControllerIpListMap]: UPDATE_IN_PROGRESS  state changed
+2020-05-28 12:58:15Z [overcloud-ControllerAllNodesValidationConfig-3eqtw7exxpoa]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:58:15Z [overcloud-ControllerAllNodesValidationConfig-3eqtw7exxpoa]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:58:15Z [overcloud-ControllerIpListMap-vh2xfbc5psrp]: UPDATE_IN_PROGRESS  Stack UPDATE started
+2020-05-28 12:58:16Z [ControllerAllNodesValidationConfig]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:16Z [overcloud-ControllerIpListMap-vh2xfbc5psrp]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:58:17Z [ControllerIpListMap]: UPDATE_COMPLETE  state changed
+2020-05-28 12:58:32Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.UpdateDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 599f11a5-b6f6-4d80-9ae9-49da28253de9 succeeded
+2020-05-28 12:58:33Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.UpdateDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 205f81a6-1305-476b-97b9-0c98ffea9175 succeeded
+2020-05-28 12:58:33Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.UpdateDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:33Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.UpdateDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:33Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NovaComputeDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:33Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NovaComputeDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:58:43Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.UpdateDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment a6905d4c-be54-4def-8800-3c8e89a0c7a9 succeeded
+2020-05-28 12:58:43Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.UpdateDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:58:43Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NovaComputeDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:04Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment ec6f062e-506b-47d3-a65e-d604af71c877 succeeded
+2020-05-28 12:59:04Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment bfc8c466-42c9-4f89-815a-cfbcd6a2fd46 succeeded
+2020-05-28 12:59:05Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NovaComputeDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:05Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.SshHostPubKey]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:05Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.ComputeExtraConfigPre]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:05Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NovaComputeDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:06Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.SshHostPubKey]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:06Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.ComputeExtraConfigPre]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:14Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NovaComputeDeployment]: SIGNAL_IN_PROGRESS  Signal: deployment 27886c78-6cf8-4208-bf27-f1750a747928 succeeded
+2020-05-28 12:59:15Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NovaComputeDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:15Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.ComputeExtraConfigPre]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:15Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.SshHostPubKey]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:57Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.SshHostPubKey]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:57Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.ComputeExtraConfigPre]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:57Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.SshHostPubKey]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:57Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeExtraConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:58Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.ComputeExtraConfigPre]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:58Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeExtraConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 12:59:59Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v.NodeExtraConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:59Z [overcloud-Compute-qsi7apd2elif-1-ejhpqrit5m6v]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 12:59:59Z [overcloud-Compute-qsi7apd2elif.1]: UPDATE_COMPLETE  state changed
+2020-05-28 12:59:59Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts.NodeExtraConfig]: CREATE_COMPLETE  state changed
+2020-05-28 12:59:59Z [overcloud-Compute-qsi7apd2elif-0-4wirplwjmmts]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 13:00:00Z [overcloud-Compute-qsi7apd2elif.0]: UPDATE_COMPLETE  state changed
+2020-05-28 13:00:07Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.ComputeExtraConfigPre]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:07Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeExtraConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:07Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.SshHostPubKey]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:08Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46.NodeExtraConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:09Z [overcloud-Compute-qsi7apd2elif-2-77hhznlvxk46]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 13:00:09Z [overcloud-Compute-qsi7apd2elif.2]: UPDATE_COMPLETE  state changed
+2020-05-28 13:00:09Z [overcloud-Compute-qsi7apd2elif]: UPDATE_COMPLETE  Stack UPDATE completed successfully
+2020-05-28 13:00:09Z [Compute]: UPDATE_COMPLETE  state changed
+2020-05-28 13:00:13Z [SshKnownHostsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [ComputeServers]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [BlacklistedIpAddresses]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [BlacklistedIpAddresses]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:13Z [ComputeServers]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:13Z [hostsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [ServerOsCollectConfigData]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [ServerOsCollectConfigData]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:13Z [SshKnownHostsHostnames]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:13Z [SshKnownHostsHostnames]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:13Z [ComputeAllNodesValidationConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [BlacklistedHostnames]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [SshKnownHostsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:14Z [ComputeNetworkHostnameMap]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [ServerIdMap]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [BlacklistedHostnames]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [ComputeAllNodesValidationConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:14Z [ComputeNetworkHostnameMap]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [ServerIdMap]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [ComputeAllNodesValidationConfig.AllNodesValidationsImpl]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [DeployedServerEnvironment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [SshKnownHostsConfig.SSHKnownHostsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [DeployedServerEnvironment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [ComputeIpListMap]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:14Z [ComputeAllNodesValidationConfig.AllNodesValidationsImpl]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [SshKnownHostsConfig.SSHKnownHostsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:14Z [SshKnownHostsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:14Z [ComputeAllNodesValidationConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:14Z [hostsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:15Z [SshKnownHostsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:15Z [ContrailControllerIssuSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:15Z [ContrailControlOnlySshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:15Z [ComputeAllNodesValidationConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:15Z [ContrailControllerSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:15Z [ComputeIpListMap]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:15Z [hostsConfig.hostsConfigImpl]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [ComputeSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [ContrailTsnSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [ContrailDpdkSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [ControllerSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [hostsConfig.hostsConfigImpl]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:16Z [ContrailSriovSshKnownHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [hostsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:16Z [ComputeIpListMap.EnabledServicesValue]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:16Z [ContrailControllerIssuSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:17Z [ContrailControllerSshKnownHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:17Z [ComputeIpListMap.EnabledServicesValue]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:17Z [hostsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:17Z [ComputeSshKnownHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:17Z [ContrailSriovHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:17Z [ContrailControlOnlySshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:17Z [ControllerSshKnownHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:17Z [ControllerHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:17Z [ContrailTsnSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:17Z [ContrailControlOnlyHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:17Z [ContrailControllerSshKnownHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:17Z [ComputeIpListMap.NetIpMapValue]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ComputeIpListMap.NetIpMapValue]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:18Z [ComputeHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ContrailDpdkHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ContrailDpdkSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:18Z [ContrailControllerIssuHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ContrailControllerHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ContrailTsnHostsDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ComputeSshKnownHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:18Z [ComputeIpListMap]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:18Z [ContrailSriovSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:18Z [ComputeIpListMap]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:19Z [ContrailSriovHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:19Z [ControllerSshKnownHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:19Z [ContrailDpdkHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:19Z [ContrailControllerSshKnownHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:19Z [ControllerHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:20Z [ContrailControllerSshKnownHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:20Z [ComputeHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:20Z [ContrailTsnHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:20Z [ControllerSshKnownHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:20Z [ContrailControllerHostsDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:20Z [ContrailControlOnlyHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:20Z [ComputeSshKnownHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:20Z [ControllerSshKnownHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:20Z [ControllerHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:21Z [ContrailControllerIssuHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:21Z [allNodesConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:21Z [ComputeHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:21Z [ControllerHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:22Z [ContrailControllerHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:22Z [ComputeHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:22Z [ComputeSshKnownHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:22Z [ContrailControllerHostsDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:23Z [allNodesConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:00:23Z [ControllerHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:23Z [ContrailControllerHostsDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:23Z [ComputeHostsDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:23Z [allNodesConfig.allNodesConfigImpl]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:23Z [allNodesConfig.allNodesConfigImpl]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:23Z [allNodesConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:24Z [allNodesConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:24Z [ContrailControllerSshKnownHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment db811a7a-973d-4416-b99d-39f902d9b8ef succeeded
+2020-05-28 13:00:24Z [ContrailControllerSshKnownHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:27Z [ComputeHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment ada63959-477d-46b7-943d-5ee7cf9a5da4 succeeded
+2020-05-28 13:00:27Z [ComputeHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment cc4a7890-af87-4564-92e7-3796b953a19e succeeded
+2020-05-28 13:00:28Z [ComputeSshKnownHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment a06cb856-71aa-4e3e-9beb-77dea5753481 succeeded
+2020-05-28 13:00:28Z [ComputeSshKnownHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment cb1746fb-44fc-4f47-ae68-afcadefa4e64 succeeded
+2020-05-28 13:00:28Z [ComputeHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:28Z [ComputeSshKnownHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:28Z [ComputeHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:29Z [ControllerHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment 8112de8a-8ba5-48ae-8271-6ae60cc6b667 succeeded
+2020-05-28 13:00:29Z [ControllerHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:29Z [ComputeSshKnownHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:29Z [ControllerSshKnownHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment 82faeb7c-c274-4af4-a934-a8fc8adbc75f succeeded
+2020-05-28 13:00:31Z [ControllerSshKnownHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:36Z [ContrailControllerHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 809a3ce0-bc61-43c0-a9fa-ec81219ced61 succeeded
+2020-05-28 13:00:36Z [ContrailControllerHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:36Z [ContrailControllerSshKnownHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 7911c702-1a3b-47ee-a89e-002138cfe431 succeeded
+2020-05-28 13:00:37Z [ContrailControllerHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment ec04306c-1098-4af9-9ac5-2a1080908eee succeeded
+2020-05-28 13:00:37Z [ContrailControllerSshKnownHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:37Z [ContrailControllerHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:37Z [ComputeHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 510c6f07-128a-4149-b303-3bd03d11d5a4 succeeded
+2020-05-28 13:00:38Z [ContrailControllerSshKnownHostsDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment b6009868-0110-4fd9-b81f-67ab41734c30 succeeded
+2020-05-28 13:00:38Z [ContrailControllerSshKnownHostsDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:38Z [ComputeSshKnownHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 9e8d16d5-a0fc-4008-84ab-8f266d2c8a92 succeeded
+2020-05-28 13:00:38Z [ContrailControllerSshKnownHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:38Z [ComputeHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:38Z [ComputeHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:38Z [ControllerHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 98c16979-cf9c-4f79-a875-8e66ff8b7900 succeeded
+2020-05-28 13:00:39Z [ContrailControllerSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:39Z [ControllerSshKnownHostsDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment c40c9c39-f2b2-494e-be13-673ca0b18f49 succeeded
+2020-05-28 13:00:39Z [ComputeSshKnownHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:39Z [ComputeSshKnownHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:39Z [ComputeHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:39Z [ControllerHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:39Z [ComputeSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:41Z [ControllerSshKnownHostsDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:42Z [ControllerHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment ffc87f1c-2ca2-4973-b2bd-c3aa06fbdc44 succeeded
+2020-05-28 13:00:42Z [ControllerHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:42Z [ControllerHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:42Z [ControllerSshKnownHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0fc22123-c5e6-45b1-bb50-82c219ddd099 succeeded
+2020-05-28 13:00:43Z [ControllerHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:43Z [ControllerSshKnownHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:43Z [ControllerSshKnownHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:44Z [ControllerSshKnownHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:56Z [ContrailControllerHostsDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 482e7440-3edc-462e-a2fa-213b48f1342e succeeded
+2020-05-28 13:00:57Z [ContrailControllerHostsDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:57Z [ContrailControllerHostsDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:00:58Z [ContrailControllerHostsDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:00:58Z [ContrailSriovAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:58Z [ControllerAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:58Z [ContrailTsnAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:58Z [ContrailDpdkAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:58Z [ContrailControllerIssuAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:59Z [ContrailControlOnlyAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:59Z [ComputeAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:00:59Z [ContrailControllerAllNodesDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:00Z [ContrailTsnAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:00Z [ContrailControllerAllNodesDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:00Z [ControllerAllNodesDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:00Z [ComputeAllNodesDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:00Z [ContrailTsnAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:00Z [ContrailDpdkAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:00Z [ControllerAllNodesDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:00Z [ContrailSriovAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:00Z [ContrailControllerAllNodesDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:00Z [ContrailDpdkAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:01Z [ContrailControllerIssuAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:01Z [ContrailControlOnlyAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:01Z [ComputeAllNodesDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:01Z [ContrailSriovAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:01Z [ContrailControllerIssuAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:01Z [ControllerAllNodesDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:01Z [ContrailControlOnlyAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:02Z [ContrailControllerAllNodesDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:02Z [ContrailDpdkAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:02Z [ControllerAllNodesDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:02Z [ContrailTsnAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:02Z [ContrailControllerIssuAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:02Z [ComputeAllNodesDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:02Z [ContrailControllerAllNodesDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:03Z [ContrailSriovAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:03Z [ComputeAllNodesDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:03Z [ContrailControlOnlyAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:08Z [ContrailControllerAllNodesDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 55507eb9-ecd9-490f-a2e4-39694de14ba4 succeeded
+2020-05-28 13:01:09Z [ContrailControllerAllNodesDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment b6034e9a-5c64-42ad-8ab9-51c03aebc7fb succeeded
+2020-05-28 13:01:10Z [ComputeAllNodesDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment fe6cd19e-f826-4430-9afe-26e766c2b963 succeeded
+2020-05-28 13:01:10Z [ContrailControllerAllNodesDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:10Z [ComputeAllNodesDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:10Z [ContrailControllerAllNodesDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:11Z [ControllerAllNodesDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment ef113191-27be-492f-bbea-e7f405ecdbd3 succeeded
+2020-05-28 13:01:12Z [ControllerAllNodesDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:14Z [ControllerAllNodesDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment cd05e167-e789-4fa7-9f57-8a05fef61594 succeeded
+2020-05-28 13:01:16Z [ControllerAllNodesDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:28Z [ContrailControllerAllNodesDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 99b78877-1646-46d6-992b-cd6fdcaefa93 succeeded
+2020-05-28 13:01:28Z [ContrailControllerAllNodesDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:28Z [ContrailControllerAllNodesDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:01:29Z [ContrailControllerAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:29Z [ContrailControllerAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:30Z [ComputeAllNodesDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 9597bf1f-4388-4633-bd4d-156b9015e980 succeeded
+2020-05-28 13:01:30Z [ComputeAllNodesDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment 4e733dde-04a6-4071-b460-13d9a4558195 succeeded
+2020-05-28 13:01:30Z [ContrailControllerAllNodesValidationDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:30Z [ContrailControllerAllNodesValidationDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:31Z [ComputeAllNodesDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:31Z [ComputeAllNodesDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:31Z [ComputeAllNodesDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:01:31Z [ComputeAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:31Z [ContrailControllerAllNodesValidationDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:31Z [ComputeAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:32Z [ControllerAllNodesDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment 3df7da5d-3c4c-4249-b187-0b906fd5530c succeeded
+2020-05-28 13:01:32Z [ContrailControllerAllNodesValidationDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:32Z [ComputeAllNodesValidationDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:32Z [ControllerAllNodesDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:32Z [ControllerAllNodesDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:01:33Z [ComputeAllNodesValidationDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:33Z [ControllerAllNodesDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:33Z [UpdateWorkflow]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:33Z [UpdateWorkflow]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:34Z [ComputeAllNodesValidationDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:34Z [ControllerAllNodesValidationDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:35Z [ComputeAllNodesValidationDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:35Z [ControllerAllNodesValidationDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:01:35Z [ControllerAllNodesValidationDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:36Z [ControllerAllNodesValidationDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:37Z [ControllerAllNodesValidationDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:01:40Z [ContrailControllerAllNodesValidationDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 6a43ef45-d9af-428b-ae86-e333ebc5bdef succeeded
+2020-05-28 13:01:41Z [ContrailControllerAllNodesValidationDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:42Z [ContrailControllerAllNodesValidationDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment dcce5c0f-516b-4149-ba4e-a831242768f7 succeeded
+2020-05-28 13:01:42Z [ComputeAllNodesValidationDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment f447bf88-f81e-4067-94d5-813750954383 succeeded
+2020-05-28 13:01:42Z [ComputeAllNodesValidationDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:42Z [ContrailControllerAllNodesValidationDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:43Z [ControllerAllNodesValidationDeployment.2]: SIGNAL_IN_PROGRESS  Signal: deployment 8b1ac2a9-e9f8-4b87-87f0-2c1ee69ba12b succeeded
+2020-05-28 13:01:44Z [ControllerAllNodesValidationDeployment.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:01:47Z [ControllerAllNodesValidationDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 75dbe005-5c35-4d9d-8363-971dc072b3ce succeeded
+2020-05-28 13:01:48Z [ControllerAllNodesValidationDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:00Z [ContrailControllerAllNodesValidationDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment e7355193-7889-414d-ad07-e714db206082 succeeded
+2020-05-28 13:02:00Z [ContrailControllerAllNodesValidationDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:00Z [ContrailControllerAllNodesValidationDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:01Z [ContrailControllerAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:02Z [ComputeAllNodesValidationDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0bc66325-6d37-44a0-95ab-249ca81f7a2a succeeded
+2020-05-28 13:02:02Z [ComputeAllNodesValidationDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment d153b414-004a-40f2-8094-e548c65090ad succeeded
+2020-05-28 13:02:02Z [ComputeAllNodesValidationDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:03Z [ComputeAllNodesValidationDeployment.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:03Z [ComputeAllNodesValidationDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:04Z [ComputeAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:04Z [ControllerAllNodesValidationDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment 805ec5f8-f222-410b-9eee-d598c0765169 succeeded
+2020-05-28 13:02:04Z [ControllerAllNodesValidationDeployment.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:04Z [ControllerAllNodesValidationDeployment]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:05Z [ControllerAllNodesValidationDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:05Z [AllNodesExtraConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:05Z [AllNodesExtraConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:06Z [AllNodesDeploySteps]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:09Z [AllNodesDeploySteps]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:12Z [AllNodesDeploySteps.ExternalPostDeployTasks]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:12Z [AllNodesDeploySteps.ExternalPostDeployTasks]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:13Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:13Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:13Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:13Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:13Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailDpdkArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:14Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ComputeArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ContrailDpdkArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ComputeArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ComputeArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ComputeArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ContrailTsnArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:15Z [AllNodesDeploySteps.ComputeArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:16Z [AllNodesDeploySteps.ContrailTsnArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:16Z [AllNodesDeploySteps.ComputeArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:16Z [AllNodesDeploySteps.ControllerArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:16Z [AllNodesDeploySteps.ContrailDpdkArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ComputeArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ControllerArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ControllerArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ControllerArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ControllerArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:17Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ComputeArtifactsDeploy]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ContrailTsnArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ComputeArtifactsDeploy.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ControllerArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.BootstrapServerId]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.BootstrapServerId]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ControllerArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:18Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailTsnHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailSriovHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerIssuHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailTsnHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailSriovHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerIssuHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ComputeArtifactsDeploy.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerIssuHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailTsnHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ControllerArtifactsDeploy]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailControllerHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:19Z [AllNodesDeploySteps.ContrailSriovHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:20Z [AllNodesDeploySteps.ComputeHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:20Z [AllNodesDeploySteps.ComputeHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:20Z [AllNodesDeploySteps.ControllerArtifactsDeploy.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:20Z [AllNodesDeploySteps.ContrailControllerHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ComputeArtifactsDeploy.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailDpdkHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ControllerHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailSriovHostPrepDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ComputeHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailControllerIssuHostPrepDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailControlOnlyHostPrepConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailDpdkHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ControllerArtifactsDeploy.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:21Z [AllNodesDeploySteps.ContrailControlOnlyHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:21Z [DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailSriovPreConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ControllerHostPrepConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControlOnlyHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerIssuPreConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ExternalDeployTasks]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ControllerArtifactsDeploy.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailSriovPreConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailDpdkHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ExternalDeployTasks]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerIssuArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ControllerHostPrepDeployment]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerHostPrepDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailTsnHostPrepDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:22Z [AllNodesDeploySteps.ContrailControllerIssuPreConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ComputeHostPrepDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:23Z [AllNodesDeploySteps.RoleConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailTsnPreConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailTsnPreConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.RoleConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailSriovArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ContrailControllerHostPrepDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:23Z [AllNodesDeploySteps.ComputeHostPrepDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailSriovArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ControllerHostPrepDeployment]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailControlOnlyHostPrepDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailControllerHostPrepDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:24Z [AllNodesDeploySteps.ContrailDpdkHostPrepDeployment]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyPreConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ComputeHostPrepDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyPreConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ControllerHostPrepDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig]: CREATE_IN_PROGRESS  Stack CREATE started
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig.DeployArtifacts]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig.DeployArtifacts]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailDpdkPreConfig]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailDpdkPreConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:25Z [AllNodesDeploySteps.ContrailControllerHostPrepDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ComputeHostPrepDeployment.0]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ContrailSriovArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ControllerHostPrepDeployment.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsConfig]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.2]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:26Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsDeploy]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:27Z [AllNodesDeploySteps.ControllerHostPrepDeployment.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:27Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.1]: CREATE_IN_PROGRESS  state changed
+2020-05-28 13:02:28Z [AllNodesDeploySteps.ContrailControlOnlyArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:31Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.0]: SIGNAL_IN_PROGRESS  Signal: deployment 0629288a-3c28-49e7-8ebd-7a40d6eac69d succeeded
+2020-05-28 13:02:32Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:34Z [AllNodesDeploySteps.ComputeArtifactsDeploy.0]: SIGNAL_IN_PROGRESS  Signal: deployment 3857e133-2320-4b87-acf2-2e87e4d01fc4 succeeded
+2020-05-28 13:02:34Z [AllNodesDeploySteps.ComputeArtifactsDeploy.1]: SIGNAL_IN_PROGRESS  Signal: deployment 454902f3-2f4a-4005-a3e6-65332a7dd268 succeeded
+2020-05-28 13:02:34Z [AllNodesDeploySteps.ComputeArtifactsDeploy.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:34Z [AllNodesDeploySteps.ComputeArtifactsDeploy.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:36Z [AllNodesDeploySteps.ControllerArtifactsDeploy.1]: SIGNAL_IN_PROGRESS  Signal: deployment 136b91a3-ad95-4a35-9ad0-d874099c6a6b succeeded
+2020-05-28 13:02:36Z [AllNodesDeploySteps.ControllerArtifactsDeploy.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:42Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.2]: SIGNAL_IN_PROGRESS  Signal: deployment 735ed239-ab0e-46e2-a5e2-e0921b312dd6 succeeded
+2020-05-28 13:02:42Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:43Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.1]: SIGNAL_IN_PROGRESS  Signal: deployment a613fd43-f677-44eb-9ed3-813a91ea2c4b succeeded
+2020-05-28 13:02:43Z [AllNodesDeploySteps.ComputeArtifactsDeploy.2]: SIGNAL_IN_PROGRESS  Signal: deployment 452472ee-980d-4866-8efe-10ce90ff8af2 succeeded
+2020-05-28 13:02:43Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy.1]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:43Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:44Z [AllNodesDeploySteps.ContrailControllerArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:44Z [AllNodesDeploySteps.ComputeArtifactsDeploy.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:44Z [AllNodesDeploySteps.ComputeArtifactsDeploy]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:45Z [AllNodesDeploySteps.ControllerArtifactsDeploy.2]: SIGNAL_IN_PROGRESS  Signal: deployment f3684950-af81-4fbe-9fa2-1aee280a151b succeeded
+2020-05-28 13:02:45Z [AllNodesDeploySteps.ComputeArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:45Z [AllNodesDeploySteps.ControllerArtifactsDeploy.2]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:49Z [AllNodesDeploySteps.ControllerArtifactsDeploy.0]: SIGNAL_IN_PROGRESS  Signal: deployment 9b04dd54-690e-45ee-a981-afcdafe271e0 succeeded
+2020-05-28 13:02:50Z [AllNodesDeploySteps.ControllerArtifactsDeploy.0]: CREATE_COMPLETE  state changed
+2020-05-28 13:02:50Z [AllNodesDeploySteps.ControllerArtifactsDeploy]: CREATE_COMPLETE  Stack CREATE completed successfully
+2020-05-28 13:02:51Z [AllNodesDeploySteps.ControllerArtifactsDeploy]: CREATE_COMPLETE  state changed
+2020-05-28 13:03:00Z [AllNodesDeploySteps.ComputeHostPrepDeployment.0]: SIGNAL_IN_PROGRESS  Signal: deployment 55c7e7b4-a54b-41a1-9e23-a98344c3c4e2 failed (2)
+2020-05-28 13:03:00Z [AllNodesDeploySteps.ComputeHostPrepDeployment.0]: CREATE_FAILED  Error: resources[0]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+2020-05-28 13:03:00Z [AllNodesDeploySteps.ComputeHostPrepDeployment]: CREATE_FAILED  Resource CREATE failed: Error: resources[0]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+2020-05-28 13:03:01Z [AllNodesDeploySteps.ComputeHostPrepDeployment.1]: SIGNAL_IN_PROGRESS  Signal: deployment a680651e-e29e-4709-a706-45ca391fd23f failed (2)
+2020-05-28 13:03:01Z [AllNodesDeploySteps.ComputeHostPrepDeployment]: CREATE_FAILED  Error: resources.ComputeHostPrepDeployment.resources[0]: Deployment to server failed: deploy_status_code: Deployment exited with non-zero status code: 2
+2020-05-28 13:03:01Z [AllNodesDeploySteps]: CREATE_FAILED  Resource CREATE failed: Error: resources.ComputeHostPrepDeployment.resources[0]: Deployment to server failed: deploy_status_code: Deployment exited with non-zero status code: 2
+2020-05-28 13:03:01Z [AllNodesDeploySteps]: CREATE_FAILED  Error: resources.AllNodesDeploySteps.resources.ComputeHostPrepDeployment.resources[0]: Deployment to server failed: deploy_status_code: Deployment exited with non-zero status code: 2
+2020-05-28 13:03:01Z [overcloud]: UPDATE_FAILED  Resource CREATE failed: Error: resources.AllNodesDeploySteps.resources.ComputeHostPrepDeployment.resources[0]: Deployment to server failed: deploy_status_code: Deployment exited with non-zero status code: 2
+2020-05-28 13:03:02Z [overcloud.AllNodesDeploySteps.ComputeHostPrepDeployment.1]: CREATE_FAILED  Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+2020-05-28 13:03:02Z [overcloud.AllNodesDeploySteps.ComputeHostPrepDeployment]: CREATE_FAILED  Resource CREATE failed: Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+
+ Stack overcloud UPDATE_FAILED 
+
+overcloud.AllNodesDeploySteps.ComputeHostPrepDeployment.1:
+  resource_type: OS::Heat::SoftwareDeployment
+  physical_resource_id: a680651eHeat Stack update failed.
+Heat Stack update failed.
+-e29e-4709-a706-45ca391fd23f
+  status: CREATE_FAILED
+  status_reason: |
+    Error: resources[1]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+  deploy_stdout: |
+    ...
+    TASK [Install ntpdate] *********************************************************
+    skipping: [localhost]
+    
+    TASK [Ensure system is NTP time synced] ****************************************
+    fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["ntpdate", "-u", "10.204.217.158"], "delta": "0:00:00.004789", "end": "2020-05-28 09:03:04.211729", "msg": "non-zero return code", "rc": 1, "start": "2020-05-28 09:03:04.206940", "stderr": "28 May 09:03:04 ntpdate[38088]: no servers can be used, exiting", "stderr_lines": ["28 May 09:03:04 ntpdate[38088]: no servers can be used, exiting"], "stdout": "", "stdout_lines": []}
+    	to retry, use: --limit @/var/lib/heat-config/heat-config-ansible/89b31d5a-f054-4c46-a7f2-fb5c44f0ca8d_playbook.retry
+    
+    PLAY RECAP *********************************************************************
+    localhost                  : ok=76   changed=34   unreachable=0    failed=1   
+    
+    (truncated, view all with --long)
+  deploy_stderr: |
+     [WARNING]: Consider using the mount module rather than running mount.  If you
+    need to use command because mount is insufficient you can add warn=False to
+    this command task or set command_warnings=False in ansible.cfg to get rid of
+    this message.
+     [WARNING]: Consider using the yum, dnf or zypper module rather than running
+    rpm.  If you need to use command because yum, dnf or zypper is insufficient you
+    can add warn=False to this command task or set command_warnings=False in
+    ansible.cfg to get rid of this message.
+overcloud.AllNodesDeploySteps.ComputeHostPrepDeployment.0:
+  resource_type: OS::Heat::SoftwareDeployment
+  physical_resource_id: 55c7e7b4-a54b-41a1-9e23-a98344c3c4e2
+  status: CREATE_FAILED
+  status_reason: |
+    Error: resources[0]: Deployment to server failed: deploy_status_code : Deployment exited with non-zero status code: 2
+  deploy_stdout: |
+    ...
+    TASK [Install ntpdate] *********************************************************
+    skipping: [localhost]
+    
+    TASK [Ensure system is NTP time synced] ****************************************
+    fatal: [localhost]: FAILED! => {"changed": true, "cmd": ["ntpdate", "-u", "10.204.217.158"], "delta": "0:00:00.004524", "end": "2020-05-28 09:03:03.117093", "msg": "non-zero return code", "rc": 1, "start": "2020-05-28 09:03:03.112569", "stderr": "28 May 09:03:03 ntpdate[37492]: no servers can be used, exiting", "stderr_lines": ["28 May 09:03:03 ntpdate[37492]: no servers can be used, exiting"], "stdout": "", "stdout_lines": []}
+    	to retry, use: --limit @/var/lib/heat-config/heat-config-ansible/4fbef286-0876-4e32-89c6-dd4b6eb1b85e_playbook.retry
+    
+    PLAY RECAP *********************************************************************
+    localhost                  : ok=76   changed=34   unreachable=0    failed=1   
+    
+    (truncated, view all with --long)
+  deploy_stderr: |
+     [WARNING]: Consider using the mount module rather than running mount.  If you
+    need to use command because mount is insufficient you can add warn=False to
+    this command task or set command_warnings=False in ansible.cfg to get rid of
+    this message.
+     [WARNING]: Consider using the yum, dnf or zypper module rather than running
+    rpm.  If you need to use command because yum, dnf or zypper is insufficient you
+    can add warn=False to this command task or set command_warnings=False in
+    ansible.cfg to get rid of this message.

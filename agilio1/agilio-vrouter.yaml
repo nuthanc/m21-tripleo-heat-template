@@ -1,0 +1,19 @@
+heat_template_version: 2014-10-16
+
+parameters:
+  servers:
+    type: json
+
+resources:
+  ExtraConfig:
+    type: OS::Heat::SoftwareConfig
+    properties:
+      group: script
+      config:
+        get_file: agilio_post.sh
+  ExtraDeployments:
+    type: OS::Heat::SoftwareDeploymentGroup
+    properties:
+      servers:  {get_param: servers}
+      config: {get_resource: ExtraConfig}
+      actions: ['CREATE', 'UPDATE'] 
